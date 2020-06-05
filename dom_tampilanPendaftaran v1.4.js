@@ -48,8 +48,8 @@ function validasi() {
 
     if (name == "" || nomorHandphone == "" || daerahTempatTinggal == "") {
         alert('Isi Semua Data');
-
-        form1.action = `TampilanPendaftaran.html`;
+        window.location = "theodorusarie.github.io/index.html";
+        //form1.action = `TampilanPendaftaran.html`;
     }
 
     else if (capcha.value === resubmitCapcha) {
