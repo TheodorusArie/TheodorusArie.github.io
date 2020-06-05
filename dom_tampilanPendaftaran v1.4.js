@@ -1,4 +1,4 @@
-let form1 = document.getElementById('form-utama');
+let form1 = document.getElementById('submitButton');
 let capcha = document.getElementById('Capcha');
 let statusCapcha = true;
 let capchaArr = [];
@@ -27,7 +27,7 @@ for (let i = 0; i < capchaArr.length; i++) {
 
 // console.log(name,'====');
 //console.log(form1.action);
-form1.addEventListener('submit', validasi);
+form1.addEventListener('click', validasi);
 function validasi() {
     let nomorHandphone = document.getElementById('Handphone').value;
     let daerahTempatTinggal = document.getElementById('Daerah').value;
