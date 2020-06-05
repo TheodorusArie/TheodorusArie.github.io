@@ -88,7 +88,7 @@ function validasi() {
             alert('NOMOR HANDPHONE HARUS DIAWALI DENGAN 0');
             window.location = "https://theodorusarie.github.io/index.html";
             //form1.action = `TampilanPendaftaran.html`;
-        }
+        }//
 
 
     }
