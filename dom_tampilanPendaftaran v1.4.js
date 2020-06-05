@@ -60,8 +60,8 @@ function validasi() {
                 if (tempEntry === negaraCapital[i]) {
                     alert('SAATNYA BELAJAR');
                     let goToPage = document.getElementById('food').value;
-                    window.location = `theodorusarie.github.io/${goToPage}.html`;
-                    //form1.action = `${goToPage}.html`;
+                    //window.location = `theodorusarie.github.io/${goToPage}.html`;
+                    form1.action = `${goToPage}.html`;
                     statusDaerah = false;
                 }
             }
