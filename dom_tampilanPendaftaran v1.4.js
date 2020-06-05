@@ -49,7 +49,7 @@ function validasi() {
     if (name == "" || nomorHandphone == "" || daerahTempatTinggal == "") {
         alert('Isi Semua Data');
 
-        form1.action = `theodorusarie.github.io`;
+        form1.action = `TampilanPendaftaran.html`;
     }
 
     else if (capcha.value === resubmitCapcha) {
@@ -78,7 +78,7 @@ function validasi() {
                     tampilanAlert = `tolong isi DAERAH sesuai pilihan: apakah ini DAERAH yang mungkin kamu maksud ? ${negaraTampungan}`;
                     alert(tampilanAlert);
                     
-                    form1.action = `theodorusarie.github.io`;
+                    form1.action = `TampilanPendaftaran.html`;
                 }
             }
 
@@ -87,7 +87,7 @@ function validasi() {
         else {
             alert('NOMOR HANDPHONE HARUS DIAWALI DENGAN 0');
             //window.location = "https://theodorusarie.github.io/index.html";
-            form1.action = `theodorusarie.github.io`;
+            form1.action = `TampilanPendaftaran.html`;
         }
 
 
@@ -95,7 +95,7 @@ function validasi() {
     else {
         alert('CAPCHA SALAH');
         //window.location = "https://theodorusarie.github.io/index.html";
-        form1.action = `theodorusarie.github.io`;
+        form1.action = `TampilanPendaftaran.html`;
 
     }
 
