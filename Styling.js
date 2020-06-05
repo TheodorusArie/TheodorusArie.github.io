@@ -10,7 +10,7 @@ function prev(){
     if(counter === 0){
         counter = 3;
     }
-    let image = `img/${title}-${counter}.jpg`;
+    let image = `${title}-${counter}.jpg`;
     gantiGambar.src = image;
 }
 function next(){
@@ -18,7 +18,7 @@ function next(){
     if(counter === 4){
         counter = 1;
     }
-    let image = `img/${title}-${counter}.jpg`;
+    let image = `${title}-${counter}.jpg`;
     gantiGambar.src = image;
 }
 function showIngredients(){
