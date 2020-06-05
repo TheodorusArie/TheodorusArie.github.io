@@ -49,7 +49,7 @@ function validasi() {
     if (name == "" || nomorHandphone == "" || daerahTempatTinggal == "") {
         alert('Isi Semua Data');
 
-        form1.action = `https://theodorusarie.github.io/`;
+        form1.action = `theodorusarie.github.io`;
     }
 
     else if (capcha.value === resubmitCapcha) {
