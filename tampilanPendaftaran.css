@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-image: url(img/background.jpg);
+
+}
+body label{
+    font-size: large;
+    background-color: white;
+}
+#submitButton{
+        background-color: rgba(158, 223, 253, 0.781);
+        border-radius: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: large;
+}
+#submitButton:hover{
+    background-color: cornsilk;
+    font-size: larger;
+}
+footer{
+    background-color: black;
+    padding-top: 10px;
+    margin: 0px;
+    bottom: 0px;
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    position: static;
+    bottom: 0px;
+    position: relative;
+    width:100%;
+    position: absolute;
+    bottom: 0px;
+    
+    
+}

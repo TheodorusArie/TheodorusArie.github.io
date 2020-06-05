@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id="title">FrenchFries</title>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Learn More</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id='tampilanAtas'>
+        <div id='ImageMakanan'>
+            <button onclick="prev()">Prev</button>
+            <button onclick="next()">Next</button>
+            <br>
+            <img id='gambar' src="img/FrenchFries-3.jpg">
+        </div>
+        <div id='KontenAtas'>
+            <h1>French Fries with Mayo</h1>
+            <p>By : Theo Learn to Cook</p>
+            <p>Prep : 10 mins</p>
+            <p>Difficulty : Easy</p>
+            <p>Serves : 6 People</p>
+        </div>
+
+
+    </div>
+    <section>
+        <article >
+            <p id='ingredients'>Ingredients
+                <br>
+                <button onclick="showIngredients()">Show</button>
+                <button onclick="hideIngredients()">Hide</button>
+            </p>
+            <ul id='articleIngredients' style="display: none">
+                <li>170 gram Good Mayonaise</li>
+                <li>1 Lemon Zested, then cut into wedges for squeezing</li>
+                <li>1 tbsp oregano</li>
+                <li>2 tbsp chilli powder, 5 more for sprinkling</li>
+                <li>75 gram plain flour</li>
+                <li>500g Potatoes</li>
+                <li>Oil for Frying</li>
+                <li>Mint Leaves</li>
+
+            </ul>
+        </article>
+        
+    </section>
+    <div class="pengerjaan">
+        <p id='methods'>Methods
+            <br>
+            <button onclick="showMethods()">Show</button>
+            <button onclick="hideMethods()">Hide</button>
+        </p>
+
+        <ol id='articleMethods' type="1" style="display: none">
+            <li>Mix the mayonaise with the lemon zest and some seasoning, then swirl through the harissa so that you
+                have pockets of hot and cool in the dip.</li>
+            <li>On a plate, stir the chilli powder into the flour, then roll the potatoes in the mixture so that
+                it’s evenly coated. Heat the oil in a shallow, heavy-bottomed pan or casserole dish until 180C on a
+                cooking thermometer, or a piece of bread browns in 20 secs. Working in batches, carefully lower the
+                potatoes into the oil and cook for 2 mins until crisp and golden, then drain on kitchen paper.</li>
+            <li>
+                Sprinkle over the mint and chilli powder, and serve with the lemon wedges and the spicy mayonaise
+                for dipping.
+            </li>
+
+        </ol>
+
+    </div>
+    <footer>
+        <p>
+            Jangan Bilang Tidak Suka Kalau Tidak Dicoba
+        </p>
+        <p id="author">Theodorus Arie S -2020-</p>
+    </footer>
+    <script src="Styling.js"></script>
+</body>
+
+</html>

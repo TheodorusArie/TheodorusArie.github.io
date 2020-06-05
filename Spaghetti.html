@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id='title'>Spaghetti</title>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Learn More</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id='tampilanAtas'>
+        <div id='ImageMakanan'>
+            <button onclick="prev()">Prev</button>
+            <button onclick="next()">Next</button>
+            <br>
+            <img id='gambar' src="img/Spaghetti-1.jpg">
+        </div>
+        <div id='KontenAtas'>
+            <h1>Spaghetti Ciamik</h1>
+            <p>By : Theo Learn to Cook</p>
+            <p>Prep : 25 mins</p>
+            <p>Difficulty : Easy</p>
+            <p>Serves : 6 People</p>
+        </div>
+
+
+    </div>
+    <section>
+        <article>
+            <p id='ingredients'>Ingredients
+                <br>
+                <button onclick="showIngredients()">Show</button>
+                <button onclick="hideIngredients()">Hide</button>
+            </p>
+            <ul id='articleIngredients' style="display: none;">
+                <li>1 Tbsp Olive Oil</li>
+                <li>4 Tbsp Smoked Bacon</li>
+                <li>2 Medium Onion</li>
+                <li>2 Carrot, Trimmed</li>
+                <li>2 Celery Stick, Chopped</li>
+                <li>2 Garlic Cloves, Finely Chopped</li>
+                <li>2-3 spring rosemary</li>
+
+            </ul>
+        </article>
+        <article>
+            <p id='sauces'>Sauces
+                <br>
+                <button onclick="showSauces()">Show</button>
+                <button onclick="hideSauces()">Hide</button>
+            </p>
+            <ul id='articleSauces' style="display: none">
+                <li>2 400ml Tin Plum Tomato</li>
+                <li>1 Tsp Oregano</li>
+                <li>2 Fresh Bayleaves</li>
+                <li>1 Beef Stock Cube</li>
+                <li>1 Red Chilli, Finely Chopped</li>
+                <li>125 ml red wine</li>
+                <li>6 Cherry Tomatoes, Sliced in Half</li>
+            </ul>
+        </article>
+        <article>
+            <p id='SeasonandServe'>Season and Serve
+                <br>
+                <button onclick="showSeasonandServe()">Show</button>
+                <button onclick="hideSeasonandServe()">Hide</button>
+            </p>
+            <ul id='articleSeasonandServe' style="display: none">
+                <li>75gram parmesan cheese, grated</li>
+                <li>400 gram spaghetti</li>
+                <li>crusty bread, optional</li>
+
+            </ul>
+        </article>
+        
+    </section>
+    <div class="pengerjaan">
+        <p id='methods'>Methods
+            <br>
+            <button onclick="showMethods()">Show</button>
+            <button onclick="hideMethods()">Hide</button>
+        </p>
+        <ol type="1" id='articleMethods' style="display: none">
+            <li>Put a large saucepan on a medium heat and add 1 tbsp olive oil.</li>
+            <li>Add 4 finely chopped bacon rashers and fry for 10 mins until golden and crisp.</li>
+            <li>Reduce the heat and add the 2 onions, 2 carrots, 2 celery sticks, 2 garlic cloves and the leaves from 2-3 sprigs rosemary, all finely chopped, then fry for 10 mins. Stir the veg often until it softens.</li>
+            <li>Increase the heat to medium-high, add 500g beef mince and cook stirring for 3-4 mins until the meat is browned all over.</li>
+            <li>Add 2 tins plum tomatoes, the finely chopped leaves from ¾ small pack basil, 1 tsp dried oregano, 2 bay leaves, 2 tbsp tomato purée, 1 beef stock cube, 1 deseeded and finely chopped red chilli (if using), 125ml red wine and 6 halved cherry tomatoes. Stir with a wooden spoon, breaking up the plum tomatoes.</li>
+            <li>Bring to the boil, reduce to a gentle simmer and cover with a lid. Cook for 1 hr 15 mins stirring occasionally, until you have a rich, thick sauce.</li>
+            <li>Add the 75g grated parmesan, check the seasoning and stir.</li>
+            <li>When the bolognese is nearly finished, cook 400g spaghetti following the pack instructions.</li>
+            <li>Drain the spaghetti and stir into the bolognese sauce. Serve with more grated parmesan, the remaining basil leaves and crusty bread, if you like.</li>
+
+        </ol>
+
+    </div>
+    <footer>
+        <p>
+            Jangan Bilang Tidak Suka Kalau Tidak Dicoba
+        </p>
+        <p id="author">Theodorus Arie S -2020-</p>
+    </footer>
+    <script src="Styling.js"></script>
+
+</body>
+
+</html>

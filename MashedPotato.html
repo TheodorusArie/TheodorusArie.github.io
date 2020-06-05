@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id='title'>MashedPotato</title>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Learn More</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id='tampilanAtas'>
+        <div id='ImageMakanan'>
+            <button onclick="prev()">Prev</button>
+            <button onclick="next()">Next</button>
+            <br>
+            <img id='gambar' src="img/MashedPotato-1.jpg">
+        </div>
+        <div id='KontenAtas'>
+            <h1>Garlic Mashed Potato</h1>
+            <p>By : Theo Learn to Cook</p>
+            <p>Prep : 15 mins</p>
+            <p>Difficulty : Easy</p>
+            <p>Serves : 4 People</p>
+        </div>
+
+
+    </div>
+    <section>
+        <article>
+            <p id='ingredients'>Ingredients <br>
+                <button onclick="showIngredients()">Show</button>
+                <button onclick="hideIngredients()">Hide</button>
+            </p>
+            <ul id='articleIngredients' style="display: none">
+                <li>1 Kg Potatoes</li>
+                <li>Butter for frying</li>
+                <li>1 Garlic Cloves, finely Chopped</li>
+                <li>140ml pot single cream or milk</li>
+                <li>25g dried white bread crumbs</li>
+                <li>25g gruyere, grated</li>
+                <li>2 thymes sprigs, leaves Stripped </li>
+
+            </ul>
+        </article>
+        
+    </section>
+    <div class="pengerjaan">
+        <p id='methods'>Methods
+            <br>
+            <button onclick="showMethods()">Show</button>
+            <button onclick="hideMethods()">Hide</button>
+        </p>
+        <ol type="1" id="articleMethods" style="display: none">
+            <li>Cook the potatoes in a large pan of water for 15 mins or until soft. Drain well. Place the pan back
+                on the heat. Melt a little butter and cook the garlic for 1 min to soften, then stir in the cream or
+                milk and heat through. Return the potatoes to the pan and mash until smooth.</li>
+            <li>Heat oven to 180C/fan 160C/gas 4. Spoon the mixture into a 20 x 30cm baking dish. Sprinkle the
+                breadcrumbs, cheese and thyme over the top. Can be made up to this point the day before and stored
+                in the fridge or frozen for up to 1 month. Cook for 15 mins until the crumbs are crisp and the
+                cheese has melted. To cook from frozen, simply cook for 1 hr 10 mins.</li>
+        </ol>
+
+    </div>
+    <footer>
+        <p>
+            Jangan Bilang Tidak Suka Kalau Tidak Dicoba
+        </p>
+        <p id="author">Theodorus Arie S -2020-</p>
+    </footer>
+    <script src="Styling.js"></script>
+</body>
+
+</html>
