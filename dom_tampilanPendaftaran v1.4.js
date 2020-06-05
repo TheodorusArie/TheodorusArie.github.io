@@ -60,8 +60,8 @@ function validasi() {
                 if (tempEntry === negaraCapital[i]) {
                     alert('SAATNYA BELAJAR');
                     let goToPage = document.getElementById('food').value;
-                    window.location = `https://theodorusarie.github.io/${goToPage}.html`;
-                    //form1.action = `${goToPage}.html`;
+           
+                    form1.action = `${goToPage}.html`;
                     statusDaerah = false;
                 }
             }
@@ -77,8 +77,8 @@ function validasi() {
                     let tampilanAlert = '';
                     tampilanAlert = `tolong isi DAERAH sesuai pilihan: apakah ini DAERAH yang mungkin kamu maksud ? ${negaraTampungan}`;
                     alert(tampilanAlert);
-                    window.location = "https://theodorusarie.github.io/index.html";
-                    //form1.action = `https://theodorusarie.github.io/`;
+                    
+                    form1.action = `theodorusarie.github.io`;
                 }
             }
 
@@ -86,16 +86,16 @@ function validasi() {
         }
         else {
             alert('NOMOR HANDPHONE HARUS DIAWALI DENGAN 0');
-            window.location = "https://theodorusarie.github.io/index.html";
-            //form1.action = `https://theodorusarie.github.io/`;
+            //window.location = "https://theodorusarie.github.io/index.html";
+            form1.action = `theodorusarie.github.io`;
         }
 
 
     }
     else {
         alert('CAPCHA SALAH');
-        window.location = "https://theodorusarie.github.io/index.html";
-        //form1.action = `https://theodorusarie.github.io/`;
+        //window.location = "https://theodorusarie.github.io/index.html";
+        form1.action = `theodorusarie.github.io`;
 
     }
 
